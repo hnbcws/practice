@@ -1,0 +1,52 @@
+*{
+	padding:0px;
+	margin:0px;
+	list-style-type: none;
+    text-decoration: none;
+}
+.main{
+    width: 1300px;
+    margin:0 auto;
+
+}
+.top{
+	height: 160px;
+}
+.top img{
+	width: 1300px;
+	height: 160px;
+}
+.nav{background:url(../images/nav.gif) repeat;height: 30px;line-height: 30px;}
+.navleft {width:900px;height: 30px;display: inline-block;}
+.navleft ul li{width:100px;float:left;text-align: center;border-right: 1px solid white;}
+.navleft ul li .one{display: block;font-family: 微软雅黑;font-weight: bold;color: white;}
+.navleft ul li .one:hover{background-color: #26C2D2;}
+.navleft ul li .one:active{color:red;}
+.navleft ul .menu .secmenu{background-color: #26C2D2; display: none;position: absolute;z-index: 2 ;width: 100px;}
+.navleft ul .menu .secmenu a{font-family: 微软雅黑;color: white;display: block;border-top: 1px solid gray;}
+.navleft ul .menu .secmenu a:hover{color: red;}
+.navright{width: 400px;height: 30px;float: right;}
+.navright a{display: inline-block;width: 145px;height: 30px;text-align: center;color: white;font-family: 微软雅黑;font-weight: bold;}
+.navright a:hover{background-color: #26C2D2;}
+.navright a:active{color:red;}
+.center{width: 1300px;height: 500px;border-bottom: 1px solid gray;}
+.center img{width:1300px;height: 500px;}
+.center #main{width: 1300px;height: 500px;overflow: hidden;position:relative;}
+.center #list{width: 9100px;height: 500px;position: absolute;z-index: 1;}
+.center #list img{float: left;}
+.center #buttons { position: absolute; height: 10px; width: 100px; z-index: 2; bottom: 5px; left: 620px;}
+.center #buttons span { cursor: pointer; float: left; border: 1px solid #fff; width: 10px; height: 10px;
+border-radius: 50%; background: #333; margin-right: 8px; }
+.center #buttons .on {  background: orange;}
+.center  .arrow { cursor: pointer; display:none; line-height: 50px; text-align: center;  font-size:20px; width: 50px; height: 50px; 
+ position: absolute; z-index: 2; top: 175px; background-color: RGBA(0,0,0,0.2); color: #fff;}
+.center .arrow:hover { background-color: RGBA(0,0,0,0.8);}
+.center #main:hover .arrow { display: block;}
+.center #prev{left: 15px;}
+.center #next{right: 15px;}
+.bottom{height: 50px;margin-top:5px;text-align: center;border: 1px solid gray;background-color: #E7E5E5;}
+.bottom ul{width: 500px;height: 30px;margin: 0 auto;}
+.bottom ul li{width:100px;height: 30px;line-height: 30px;float: left;text-align: center;}
+.bottom ul li a{color: #807878;}
+.bottom ul li a:hover{color: red;}
+.bottom ul li a:active{text-decoration: underline;}
